@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <persona>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <direccion></direccion>
+        <telefono></telefono>
+    </persona>
+<persona>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <direccion></direccion>
+        <telefono></telefono>
+    </persona>
+</agenda>
