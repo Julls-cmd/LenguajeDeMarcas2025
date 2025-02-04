@@ -58,3 +58,93 @@ body{
     display: block;
     font-weight: 600;
 }
+/*Para cambiar el color reactivo de el menu*/
+.menu .navbar ul li a:hover{
+    color: chartreuse;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+}
+/*Titulo Header*/
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+/*Contenido Principal header*/
+.header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+/*Boton Principal header*/
+.btn-1{
+    display: inline-block;
+     padding: 11px 35px;
+     background-color: #ce967b;
+     color: #f9fafc;
+     text-transform: uppercase;
+}
+/*Reactivo del boton principal*/
+.btn-1:hover{
+ background-color: #a04416;
+}
+/*Color section*/
+.brujula{
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.brujula-content{
+    text-align: center;
+}
+/*H2 del section*/
+.brujula-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+/*imagenes 3 cafes*/
+.brujula-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.brujula-1 img{
+    width: 200px;
+}
+/*imagen cafe derecha*/
+.brujula-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
