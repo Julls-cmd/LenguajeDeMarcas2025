@@ -60,7 +60,7 @@ body{
 }
 /*Para cambiar el color reactivo de el menu*/
 .menu .navbar ul li a:hover{
-    color: chartreuse;
+    color: #ce967b;
 }
 
 #menu{
