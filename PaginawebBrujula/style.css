@@ -138,7 +138,9 @@ body{
     justify-content: space-between;
     margin-bottom: 50px;
 }
-
+.brujula-1{
+    padding: 0 25px;
+}
 .brujula-1 img{
     width: 200px;
 }
@@ -147,4 +149,35 @@ body{
     position: absolute;
     top: 0;
     right: 0;
+} 
+
+/*titulo del h3*/
+.brujula-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/*Imagen del Service*/
+.services{background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url(images/bg2.jpg) center bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+
+
+}
+
+.services-content{
+    text-align: center;
+}
+/*Titulo del Service*/
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
