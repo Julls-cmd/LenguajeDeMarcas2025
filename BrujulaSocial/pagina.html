@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brújula Social</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #A5D6A7; /* Verde más suave */
+            color: white;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            background-color: #d9eae0;
+            width: 100%;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+        }
+        .intro, .contact, .legal {
+            width: 100%;
+        }
+        footer {
+            background-color: #A5D6A7; /* Verde más suave */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brújula Social</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio" class="intro">
+            <h2>Asociación</h2>
+            <p>Brújula Gabinete Socioeducativo y Psicológico</p>
+            <p><em>"Disfrutar de los avances de toda persona que lucha, ver como repercuten positivamente en la unidad familiar y saber que con paciencia, constancia y trabajo se consiguen grandes logros, hace que amemos nuestro trabajo."</em></p>
+            <p>Fdo. equipo Brújula</p>
+        </section>
+        <section id="historia" class="services">
+            <h2>¿Qué ofrecemos?</h2>
+            <div class="service-item">
+                <h3>Habilidades Sociales y Autonomía</h3>
+                <p>Trabajo en grupo para adquirir habilidades para la vida, relaciones sociales, familiares, autocontrol, espera, resolución de problemas de la vida cotidiana y mucho más.</p>
+            </div>
+            <div class="service-item">
+                <h3>Atención Temprana y Estimulación Cognitiva</h3>
+                <p>Atención preventiva y asistencial para favorecer el desarrollo, autonomía y bienestar. Trabajamos patologías como Parkinson, Alzheimer, demencias.</p>
+            </div>
+            <div class="service-item">
+                <h3>Aula Sensorial Burbujas</h3>
+                <p>El Aula Sensorial Burbujas está diseñada para ayudar a niños de 0 a 6 años, sus familias y su entorno, proporcionando una intervención temprana para abordar las necesidades de desarrollo. Utiliza luces, sonidos, colores y otros estímulos sensoriales para mejorar la calidad de vida de las personas con diversas discapacidades.</p>
+            </div>
+        </section>
+        <section id="equipo" class="workshops">
+            <h2>Talleres de sensibilización</h2>
+            <div class="workshop-item">
+                <h3>Ciberviolencia de género a través de las redes sociales</h3>
+                <p>Pepi Moreno, la coordinadora provincial del Instituto Andaluz de la Mujer, IES Los Remedios, y Brújula Gabinete presentan el taller "En la Era Digital, LuChemoS por la Igualdad".</p>
+            </div>
+        </section>
+        <section id="faq" class="courses">
+            <h2>Cursos para el profesorado CEDEP</h2>
+            <p>Curso sobre el uso responsable de las tecnologías, incluyendo "Ciberalumn@ ayudante".</p>
+        </section>
+        <section class="activities">
+            <h2>I Encuentro por el día mundial del autismo</h2>
+            <p>Participación significativa de varios grupos, incluyendo la unidad canina de la policía. Actividades como un concurso de cuentos infantiles, eventos de superhéroes y numerosos talleres. Brújula participó con un taller de bolsas sensoriales.</p>
+        </section>
+        <section class="contact">
+            <h2>Contacto</h2>
+            <p>¿Desea obtener información más detallada? Llámenos al <strong>672057038</strong> para resolver sus dudas.</p>
+        </section>
+        <section class="legal">
+            <h2>Información Legal</h2>
+            <p>Asociación Brújula Gabinete Socioeducativo y Psicológico</p>
+            <p>CIF: G72371556</p>
+            <p>NICA: 11882</p>
+            <p>Sanlúcar de Barrameda (Cádiz)</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Brújula Social</p>
+    </footer>
+</body>
+</html>
