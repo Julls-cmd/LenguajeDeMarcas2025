@@ -4,78 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brújula Social</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        header {
-            background-color: #A5D6A7; /* Verde más suave */
-            color: white;
-            width: 100%;
-            padding: 15px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        nav {
-            background-color: #d9eae0;
-            width: 100%;
-            padding: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        main {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-            gap: 20px;
-            max-width: 1200px;
-            width: 100%;
-        }
-        section {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            width: calc(50% - 20px);
-            box-sizing: border-box;
-        }
-        .intro, .contact, .legal {
-            width: 100%;
-        }
-        footer {
-            background-color: #A5D6A7; /* Verde más suave */
-            color: white;
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-        }
-        @media (max-width: 768px) {
-            section {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="stylepagina.css">
 </head>
 <body>
     <header>
@@ -91,10 +20,17 @@
     </nav>
     <main>
         <section id="inicio" class="intro">
+            <div>
+                <img src="images/" alt="">
+
+            </div>
+
+            <div class="asociacion">
             <h2>Asociación</h2>
             <p>Brújula Gabinete Socioeducativo y Psicológico</p>
             <p><em>"Disfrutar de los avances de toda persona que lucha, ver como repercuten positivamente en la unidad familiar y saber que con paciencia, constancia y trabajo se consiguen grandes logros, hace que amemos nuestro trabajo."</em></p>
             <p>Fdo. equipo Brújula</p>
+            </div>
         </section>
         <section id="historia" class="services">
             <h2>¿Qué ofrecemos?</h2>
