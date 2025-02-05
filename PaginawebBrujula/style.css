@@ -46,6 +46,11 @@ body{
     font-weight: 800;
 }
 
+.logo img {
+    width: 150px;  /* Ajusta según el tamaño deseado */
+    height: auto;  /* Mantiene la proporción */
+}
+
 .menu .navbar ul li {
     position: relative;
     float: left;
