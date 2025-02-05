@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 
+#menu-top{
+    background-color:transparent;
+    top: 0 !important;
+    z-index: 9;
+    margin-left: 0;
+    justify-content: flex-start;
+    max-width: 100% !important;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +31,7 @@ body{
   }
 
   header {
+    position: relative;
     background: linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)),
@@ -38,14 +50,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .logo{
     color: #fffdfc;
     font-size: 25px;
     font-weight: 800;
+
 }
 
+.logo a{
+    margin: 0;
+    padding: 0;
+    
+}
 .logo img {
     width: 150px;  /* Ajusta según el tamaño deseado */
     height: auto;  /* Mantiene la proporción */
@@ -54,6 +78,10 @@ body{
 .menu .navbar ul li {
     position: relative;
     float: left;
+}
+
+.navbar{
+    padding-left: 9.8%;
 }
 
 .menu .navbar ul li a{
