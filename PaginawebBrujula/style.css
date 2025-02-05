@@ -23,7 +23,7 @@ body{
     background: linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)),
-        url(images/bg.jpg) center bottom no-repeat;
+        url(images/principal.jpg) center bottom no-repeat;
     background-size: cover;
     min-height: 70vh;
     display: flex;
@@ -98,13 +98,13 @@ body{
 .btn-1{
     display: inline-block;
      padding: 11px 35px;
-     background-color: #ce967b;
+     background-color: #1d5304;
      color: #f9fafc;
      text-transform: uppercase;
 }
 /*Reactivo del boton principal*/
 .btn-1:hover{
- background-color: #a04416;
+ background-color: #0fcc32;
 }
 /*Color section*/
 .brujula{
@@ -141,15 +141,28 @@ body{
 .brujula-1{
     padding: 0 25px;
 }
-.brujula-1 img{
-    width: 200px;
+
+.brujula-2{
+    padding: 0 25px;
 }
-/*imagen cafe derecha*/
-.brujula-img{
-    position: absolute;
-    top: 0;
-    right: 0;
-} 
+
+.brujula-3{
+    padding: 0 25px;
+}
+
+
+.brujula-1 img{
+    width: 300px;
+}
+
+.brujula-2 img{
+    padding: 300px;
+}
+
+.brujula-3 img{
+    padding: 300px;
+}
+
 
 /*titulo del h3*/
 .brujula-1 h3{
@@ -284,6 +297,14 @@ p{
     justify-content: space-between;
 }
 
+.link{
+    display: flex;
+
+}
+.link ul li{
+    display: inline;
+    margin: 20px;
+}
 .link h3{
     font-size: 18px;
     color: #f9fafc;
@@ -293,7 +314,6 @@ p{
 .link a{
     font-size: 16px;
     color: #c5c5c5;
-    display: block;
     margin-bottom: 15px;
 }
 
