@@ -81,7 +81,7 @@ html, body {
 }
 
 .navbar{
-    padding-left: 9.8%;
+    padding-left: 23.8%;
 }
 
 .menu .navbar ul li a{
@@ -93,7 +93,7 @@ html, body {
 }
 /*Para cambiar el color reactivo de el menu*/
 .menu .navbar ul li a:hover{
-    color: #ce967b;
+    color: #1d5304;
 }
 
 #menu{
@@ -234,7 +234,7 @@ html, body {
 }
 /*Titulo del service*/
 .services-1 h3{
-    color: #1d5304;
+    color: #f9fafc;
     font-size: 18px;
 }
 
