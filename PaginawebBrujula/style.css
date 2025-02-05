@@ -195,12 +195,12 @@ body{
 }
 /*Imagenes del service*/
 .services-1 img{
-    width: 25px;
+    width: 70px;
     margin-bottom: 15px;
 }
 /*Titulo del service*/
 .services-1 h3{
-    color: #eaccb3;
+    color: #1d5304;
     font-size: 18px;
 }
 
@@ -231,8 +231,8 @@ body{
 }
 /*Titulo del general*/
 h2{
-    font-size: 55px;
-    line-height: 70px;
+    font-size: 30px;
+    line-height: 45px;
     color: #323337;
     text-transform: uppercase;
     margin-bottom: 20px;
