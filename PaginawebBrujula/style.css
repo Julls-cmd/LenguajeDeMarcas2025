@@ -215,7 +215,7 @@ body{
 }
 /*Imagen derecha general*/
 .general-2{
-    background-image: url(images/coffe-1.jpg);
+    background-image: url(images/fotopagina.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +223,7 @@ body{
 }
 /*Imagen izquierda general*/
 .general-3{
-    background-image: url(images/coffee-2.jpg);
+    background-image: url(images/fotopagina2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
