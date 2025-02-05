@@ -141,26 +141,8 @@ body{
 .brujula-1{
     padding: 0 25px;
 }
-
-.brujula-2{
-    padding: 0 25px;
-}
-
-.brujula-3{
-    padding: 0 25px;
-}
-
-
 .brujula-1 img{
     width: 300px;
-}
-
-.brujula-2 img{
-    padding: 300px;
-}
-
-.brujula-3 img{
-    padding: 300px;
 }
 
 
@@ -175,7 +157,7 @@ body{
 .services{background: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)),
-    url(images/bg2.jpg) center bottom no-repeat;
+    url(images/historia.jpg) center bottom no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
