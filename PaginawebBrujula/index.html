@@ -8,28 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+    
+
+    window.addEventListener("scroll", function () {
+        var menu = document.querySelector("#menu-top");
+        var header = document.querySelector(".header"); // Selecciona el header
+        var headerHeight = header.offsetHeight; // Obtiene la altura del header
+
+        if (window.scrollY >= headerHeight) { 
+            menu.style.position = "fixed";
+            menu.style.top = "0";
+            menu.style.width = "100%";
+            menu.style.backgroundColor = "rgba(50, 51, 55, 1)";
+        } else {
+            menu.style.position = "absolute";
+            menu.style.top = "0";
+            menu.style.backgroundColor = "rgba(0,0,0,0)"; // Color original del menú
+        }
+    });
+</script>
+
 <body>
+    <div class="menu container" id="menu-top">
+        <a href="https://www.facebook.com/asociacionbrujula/photos_by?locale=es_LA" class="logo">
+            <img src="images/Logo mini.png" alt="Logo de la empresa">
+        </a>            
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="images/menu.png" class="menu-icono" alt="">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#brujula">Equipo</a></li>
+                <li><a href="#services">Historia</a></li>
+                <li><a href="#general">Preguntas Frecuentes</a></li>
+                <li><a href="#blog container">Actividades</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    
 
-    <header class="header">
+    <header class="header" id="head">
 
-        <div class="menu container">
-            <a href="https://www.facebook.com/asociacionbrujula/photos_by?locale=es_LA" class="logo">
-                <img src="images/Logo mini.png" alt="Logo de la empresa">
-            </a>            
-            <input type="checkbox" id="menu">
-            <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#brujula">Equipo</a></li>
-                    <li><a href="#services">Historia</a></li>
-                    <li><a href="#general">Preguntas Frecuentes</a></li>
-                    <li><a href="#blog container">Actividades</a></li>
-                    <li><a href="#footer">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
         <div class="header-content container">
             <h1>Brújula Social</h1>
             <p>
@@ -40,6 +62,7 @@
             <a href="#" class="btn-1">Informacion</a>
         </div>
     </header>
+    
 
 
     <section class="brujula" id="brujula">
